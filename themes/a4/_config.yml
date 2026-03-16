@@ -38,7 +38,7 @@ footerLink: # 底部的链接自定义
   # ...
 
 post:
-  footer: 💗做一个高认知的人💗
+  footer: 💗做一个清醒且高认知的现代人💗
   themeInfo: true # 是否开启底部右侧声明本站信息
   width: middle  #  middle | big
   titlePosition: center # left ｜ center 文章标题的位置
