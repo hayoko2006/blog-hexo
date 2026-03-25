@@ -30,12 +30,6 @@ index:  # 首页相关配置
 
 footerLink: # 底部的链接自定义
   info: © 2006-现在 何柚可   # info这个单词不能修改，不想使用可为空
-
-beian: # 备案号配置
-  enable: true # 是否显示备案号
-  icp: 皖ICP备2026007288号-1 # ICP备案号，例如：京ICP备xxxxxxxx号
-  police: # 公安备案号，例如：京公网安备xxxxxxxxxx号
-  policeUrl: # 公安备案链接，例如：http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=xxxxxxxxxx
   
   
   # 添加链接格式 举例
@@ -43,6 +37,21 @@ beian: # 备案号配置
   # 联系: /contact/ # 需要hexo new page contact
   # 支持: /support/ # 需要hexo new page support
   # ...
+
+# 网站备案信息
+beian:
+  enable: true # 是否启用备案号
+  icp: "京ICP备xxxxxxxx号" # 备案号
+  url: "https://beian.miit.gov.cn/" # 备案查询链接
+  gongan: # 公安备案信息
+    enable: false # 是否启用公安备案
+    code: "京公网安备xxxxxxxx号" # 公安备案号
+    url: "https://beian.miit.gov.cn/" # 公安备案查询链接
+
+# 基础元素配置
+baseElement:
+  href: "" # 基础URL
+  target: "" # 目标窗口
 
 post:
   footer: 💗做一个清醒且高认知的现代人💗
