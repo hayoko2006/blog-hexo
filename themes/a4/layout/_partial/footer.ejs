@@ -52,6 +52,22 @@
     <% } %>
 </div>
 
+<% if(theme.beian && theme.beian.enable) { %>
+<div class="footer-beian">
+    <% if(theme.beian.icp) { %>
+    <a href="https://beian.miit.gov.cn/" target="_blank"><%= theme.beian.icp %></a>
+    <% } %>
+    <% if(theme.beian.icp && theme.beian.police) { %>
+    <span> | </span>
+    <% } %>
+    <% if(theme.beian.police && theme.beian.policeUrl) { %>
+    <a href="<%= theme.beian.policeUrl %>" target="_blank"><%= theme.beian.police %></a>
+    <% } else if(theme.beian.police) { %>
+    <span><%= theme.beian.police %></span>
+    <% } %>
+</div>
+<% } %>
+
 <% if(theme.cdn.enable) { %>
     <% if(theme.cdn.choose == "aliyun") { %>
         <%- js('https://npm.elemecdn.com/hexo-theme-a4@latest/source/js/highlight.min.js') %>

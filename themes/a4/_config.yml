@@ -30,6 +30,12 @@ index:  # 首页相关配置
 
 footerLink: # 底部的链接自定义
   info: © 2006-现在 何柚可   # info这个单词不能修改，不想使用可为空
+
+beian: # 备案号配置
+  enable: false # 是否显示备案号
+  icp: # ICP备案号，例如：京ICP备xxxxxxxx号
+  police: # 公安备案号，例如：京公网安备xxxxxxxxxx号
+  policeUrl: # 公安备案链接，例如：http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=xxxxxxxxxx
   
   
   # 添加链接格式 举例

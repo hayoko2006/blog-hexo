@@ -337,6 +337,18 @@ a
     align-items: center;
     border-top: 1px solid var(--line-1);
 }
+.footer-beian
+{
+    padding-bottom: 24px;
+    padding-top: 5px;
+    font-size: 10px;
+    color: var(--font-color-3);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+}
 .post-footer-pre-next
 {
     padding-top: 10px;
@@ -373,6 +385,10 @@ a
         flex-direction: column;
     }
     .footer-last {
+        padding-top: 5px;
+        flex-direction: column;
+    }
+    .footer-beian {
         padding-top: 5px;
         flex-direction: column;
     }
